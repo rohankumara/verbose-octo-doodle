@@ -1,6 +1,19 @@
 version: "3.0"
 
 nlu:
+- intent: search_restaurant
+  examples: |
+    - show me [indian](hotel) restaurant
+    - show me [chinese](hotel) restaurant
+    - show me [thai](hotel) restaurant
+    - show me [italian](hotel) restaurant
+
+- intent: hello
+  examples: |
+    - world
+    - programming
+    - first program
+    
 - intent: greet
   examples: |
     - hey

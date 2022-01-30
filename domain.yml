@@ -1,6 +1,7 @@
 version: "3.0"
 
 intents:
+  - hello
   - greet
   - goodbye
   - affirm
@@ -8,8 +9,18 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - search_restaurant
+
+actions:
+  - action_hello_world
+  - action_search_restaurant
+
+entities:
+  - hotel
 
 responses:
+  
+
   utter_greet:
   - text: "Hey! How are you?"
 

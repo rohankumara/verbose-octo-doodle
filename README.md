@@ -21,6 +21,7 @@ my saving account is 24892
 
 ## Actions
 it's an opperation which can be performed by the bot 
+utter can make response but make API response we hve to make cousom actions
 
 ## Stories
 these are a sample interaction between the user and bot, defined in terms of intents captured

@@ -4,10 +4,13 @@ stories:
 
 - story: happy path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: hello
+  - action: action_hello_world
+
+- story: search restaurant path
+  steps:
+  - intent: search_restaurant
+  - action: action_search_restaurant
 
 - story: sad path 1
   steps:
